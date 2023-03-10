@@ -2,11 +2,64 @@
 
 main {
     height: 100vh;
-    background-color: #FF00FF;
+    background-color: #202126;
+    color: #fff;
 }
 
 .container {
     width: min(100% - 30px, 1080px);
     margin-inline: auto;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    grid-template-rows: 200px 50px 100px;
+    gap: 40px;
+    height: 100vh;
 }
 
+
+.big-time {
+    font-size: 200px;
+}
+
+.alarm-time {
+    font-size: 35px;
+}
+
+.seting-alarm {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 200px 200px;
+    gap: 40px;
+}
+
+.seting-alarm input {
+    border-radius: 30px;
+    height: 60px;
+    width: 100%;
+    background-color: #37383D;
+    color: #999A9C;
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.alarm-button {
+    border-radius: 30px;
+    height: 60px;
+    width: 100%;
+    background-color: #019D5D;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.fa-bell {
+    margin-right: 15px;
+}
